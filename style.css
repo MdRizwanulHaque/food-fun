@@ -1,10 +1,15 @@
 html, body{margin:0px; padding: 0px;}
 body{font-family: 'Open Sans', sans-serif;}
 #main {width:60%; margin: 0px auto; padding: 10px;}
+section{margin: 0px 0px 50px;}
 .two-col{display:flex;}
 .two-col div{width:50%;}
-.two-col div img, .three-col div img{width:100%; text-align: right;}
-h1 span{color:#6047EC;}
+.two-col div.content {padding: 70px 0px 0px;}
+.two-col div img{width:80%;}
+.intro-col img{float:right;}
+.about-col img{float:left;}
+.content p{margin: 10px 0px 25px;}
+h1 span, h2 span{color:#6047EC;}
 a{
     padding: 10px 40px; 
     background-image: linear-gradient(rgb(0, 183, 255), rgb(89, 35, 218)); 
