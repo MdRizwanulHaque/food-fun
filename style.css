@@ -2,6 +2,11 @@ html, body{margin:0px; padding: 0px;}
 body{font-family: 'Open Sans', sans-serif;}
 #main {width:60%; margin: 0px auto; padding: 10px;}
 section{margin: 0px 0px 50px;}
+section.about-col{
+    background-image: url("images/shapes/sectionbg.jpg");
+    background-position:left top; 
+    background-repeat: no-repeat;
+}
 .two-col{display:flex;}
 .two-col div{width:50%;}
 .two-col div.content {padding: 70px 0px 0px;}
@@ -20,7 +25,38 @@ a{
     border-radius: 30px;
     margin-top: 20px; 
 }
-.recipies-sec h1, .recipies-sec p{text-align: center;}
+a:hover{
+    padding: 10px 40px; 
+    background-image: linear-gradient(rgb(89, 35, 218),rgb(0, 183, 255)); 
+    color:white; 
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid #aaa;
+    border-radius: 30px;
+    margin-top: 20px; 
+}
+
+.single-col h1, .single-col p{text-align: center;}
 .three-col{display:flex;flex-wrap: wrap;}
-.three-col div{width:31.33%;padding: 1%;}
-.three-col div img{width:100%;max-width:240px; height:auto;}
+.three-col div{
+    width:29.33%;padding: 5px 1% 20px; margin:1%;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    border-top: 7px solid #6047EC;
+border-radius: 10px;}
+.three-col div img{width:100%;height:auto;}
+
+.menu a{
+    padding: 7px 20px; 
+    background-image: linear-gradient(rgb(1, 112, 156), rgb(69, 38, 143)); 
+    color:white; 
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid #aaa;
+    border-radius: 7px;
+    margin-top: 20px; 
+    outline: 1px solid blue;
+}
+section#orderus {max-width: 600px; margin: 0px auto;margin: 0px 0px 25px;}
+form{width: 100%;}
