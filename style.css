@@ -3,10 +3,25 @@ body{font-family: 'Open Sans', sans-serif;}
 #main {width:60%; margin: 0px auto; padding: 10px;}
 section{margin: 0px 0px 50px;}
 section.about-col{
+    background-size:contain;
     background-image: url("images/shapes/sectionbg.jpg");
     background-position:left top; 
     background-repeat: no-repeat;
 }
+
+.image{
+    background-image: url("images/shapes/topppbg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;}
+
+.ppimage{
+background-image: url("images/shapes/pp_bg.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;}
+
+
 .two-col{display:flex;}
 .two-col div{width:50%;}
 .two-col div.content {padding: 70px 0px 0px;}
@@ -46,7 +61,7 @@ a:hover{
     border-top: 7px solid #6047EC;
 border-radius: 10px;}
 .three-col div img{width:100%;height:auto;}
-
+.menu {text-align: center;}
 .menu a{
     padding: 7px 20px; 
     background-image: linear-gradient(rgb(1, 112, 156), rgb(69, 38, 143)); 
@@ -58,5 +73,24 @@ border-radius: 10px;}
     margin-top: 20px; 
     outline: 1px solid blue;
 }
-section#orderus {max-width: 600px; margin: 0px auto;margin: 0px 0px 25px;}
+section#orderus {max-width: 600px; margin: 0px auto;}
 form{width: 100%;}
+footer{padding:20px 0px;background-color: teal; color: white; text-align: center;}
+
+form {
+    width: 100%;
+  }
+input {
+    width: 100%;
+  }
+textarea {
+    width: 100%;
+  }
+table{
+    width: 100%;margin-bottom:50px;
+}
+td.lcol{
+    width:120px;
+}
+ 
+
