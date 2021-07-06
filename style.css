@@ -1,0 +1,17 @@
+html, body{margin:0px; padding: 0px;}
+body{font-family: 'Open Sans', sans-serif;}
+#main {width:60%; margin: 0px auto; padding: 10px;}
+.two-col{display:flex;}
+.two-col div{width:50%;}
+.two-col div img, .three-col div img{width:100%; text-align: right;}
+h1 span{color:#6047EC;}
+a{
+    padding: 10px 40px; 
+    background-image: linear-gradient(rgb(0, 183, 255), rgb(89, 35, 218)); 
+    color:white; 
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid #aaa;
+    border-radius: 30px;
+    margin-top: 20px; 
+}
