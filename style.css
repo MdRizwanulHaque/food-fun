@@ -20,7 +20,7 @@ a{
     border-radius: 30px;
     margin-top: 20px; 
 }
-.recipies-sec {text-align: center;}
+.recipies-sec h1, .recipies-sec p{text-align: center;}
 .three-col{display:flex;}
-.three-col div{width:31.33%;margin: 1%;}
+.three-col div{width:31.33%;margin: 1%;float: left;}
 .three-col div img{width:100%;}
